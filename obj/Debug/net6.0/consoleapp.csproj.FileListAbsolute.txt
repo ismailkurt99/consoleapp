@@ -1,0 +1,15 @@
+/Users/icesoft/Documents/consoleapp/bin/Debug/net6.0/consoleapp
+/Users/icesoft/Documents/consoleapp/bin/Debug/net6.0/consoleapp.deps.json
+/Users/icesoft/Documents/consoleapp/bin/Debug/net6.0/consoleapp.runtimeconfig.json
+/Users/icesoft/Documents/consoleapp/bin/Debug/net6.0/consoleapp.dll
+/Users/icesoft/Documents/consoleapp/bin/Debug/net6.0/consoleapp.pdb
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.csproj.AssemblyReference.cache
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.AssemblyInfoInputs.cache
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.AssemblyInfo.cs
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.csproj.CoreCompileInputs.cache
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.dll
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/refint/consoleapp.dll
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.pdb
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/consoleapp.genruntimeconfig.cache
+/Users/icesoft/Documents/consoleapp/obj/Debug/net6.0/ref/consoleapp.dll
