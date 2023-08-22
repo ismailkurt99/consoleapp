@@ -7,27 +7,21 @@ class Program
     static void Main(string[] args)
     {   
 
-        int a=5,b=5,c=10,d=4;
-        string username = "ismailkurt";
-        string password = "123456";
+        int x = 6;
+        int hak = 0;
+        char devammi='e';
 
-        var result = (a==b); // true
-        result = (a==c); // false
-        result = (username == "ismlkrt");
-        result = (username == "123456");
-        result = (a != b);
-        result = (a != c);
-        result = (a > c);
-        result = (c > a);
-        result = (a >= b);
-        result = (a <= b);
-        string sonuc = (a == b)?"a=b":"a!=b";
-        sonuc = (username == "ismailkurt")?
-            sonuc = (password == "123456")?"username ve password doğru":"username doğru, password yanlış":
-            sonuc = (password == "123456")?"username yanlış, password doğru":"username ve password yanlış";
+        var result = (x>5) && (x<10);
+        result = (hak>0) && (devammi=='e');
 
-        System.Console.WriteLine("sonuc: " +sonuc);
-        System.Console.WriteLine("result: "+result);
+        result = (x > 0) || (x % 2 == 0);
 
+        result = !(x>0);
+
+        //x, 5 ile 10 arasındaki bir çift sayı mı?
+
+        result = ((x>5) && (x<10)) && (x%2==0);
+
+        System.Console.WriteLine(result);
     }
 }
