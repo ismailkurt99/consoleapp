@@ -25,7 +25,7 @@ class Program
         // numaralar [3] = 104;
         // numaralar [4] = 105;
     
-    System.Console.WriteLine($"öğrenci adı: {isimler [0]} öğrenci numarasının: {numaralar [0]}");
+    System.Console.WriteLine($"öğrenci adı: {isimler [0]} öğrenci numarası: {numaralar [0]}");
     System.Console.WriteLine($"öğrenci adı: {isimler [1]} öğrenci numarası: {numaralar [1]}");
     System.Console.WriteLine($"öğrenci adı: {isimler [2]} öğrenci numarası: {numaralar [2]}");
     System.Console.WriteLine($"öğrenci adı: {isimler [3]} öğrenci numarası: {numaralar [3]}");
