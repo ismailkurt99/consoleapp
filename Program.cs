@@ -6,44 +6,44 @@ class Program
 {
     static void Main(string[] args)
     {   
-        string[] aylar = {"Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"};
+        // int a = 10;
+        // int b = 20;
+        // float val;
 
-        DateTime simdi = DateTime.Now;
+        // val = a + b;
+        // val = a - b;
+        // val = a * b;
+        // val = (float)a / (float)b;
+        // val = b % a;
+        // val = a++;
+        // val = ++a;
+        // val = a--;
+        // val = --a;
 
-        // System.Console.WriteLine(simdi);
-        // System.Console.WriteLine(simdi.Year);
-        // System.Console.WriteLine(simdi.Month);
-        // System.Console.WriteLine(aylar[simdi.Month-1]);
-        // System.Console.WriteLine(simdi.Day);
-        // System.Console.WriteLine(simdi.DayOfWeek);
-        // System.Console.WriteLine(simdi.Hour);
-        // System.Console.WriteLine(simdi.Minute);
-        // System.Console.WriteLine(simdi.Second);
-        
-        DateTime dt = new DateTime(2018,2,22,14,30,21);
+        // System.Console.WriteLine("a: "+a);
+        // System.Console.WriteLine("value: "+ val);
+    
+        int x=5,y=10,z=20;
+        double val;
 
-        // DateTime dt1 = dt.AddDays(2);
-        // DateTime dt1 = dt.AddYears(1);
-        DateTime dt1 = dt.AddHours(-5);
+        x += 5;
+        x -= 5;
 
-        var fark = simdi - dt;
+        x *= 5;
+        x /= 5;
+        x %= 5;
+        // val = Math.Pow(2,5);
+        // val = Math.Sqrt(25);
+        // val = Math.Abs(-10);
+        // val = Math.Round(4.4);
+        // val = Math.Ceiling(5.5);
+        // val = Math.Floor(5.2);
 
-        // System.Console.WriteLine(fark.TotalDays);
-        // System.Console.WriteLine(fark.TotalHours);
 
-        // System.Console.WriteLine(simdi.ToString("d"));
-        // System.Console.WriteLine(simdi.ToString("D"));
-        // System.Console.WriteLine(simdi.ToString("F"));
-        // System.Console.WriteLine(simdi.ToString("M"));
-        // System.Console.WriteLine(simdi.ToString("t"));
-        // System.Console.WriteLine(simdi.ToString("T"));
-        // System.Console.WriteLine(simdi.ToString("Y"));
-
-        System.Console.WriteLine(simdi.ToString("hh-mm-ss"));
-        System.Console.WriteLine(simdi.ToString("ddd MMM %d, yyyy"));
-
-        CultureInfo culture = new CultureInfo("tr");
-        System.Console.WriteLine(simdi.ToString("F",culture));
-
+        System.Console.WriteLine($"x: {x} y: {y} z: {z}");
+        System.Console.WriteLine(val);
+    
+    
+    
     }
 }
