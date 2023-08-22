@@ -1,48 +1,49 @@
-﻿using Microsoft.VisualBasic;
+﻿using System.Globalization;
+using Microsoft.VisualBasic;
 
 namespace test;
 class Program
 {
     static void Main(string[] args)
     {   
-        int[] numaralar = {5,3,6,1,2};
+        string[] aylar = {"Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"};
 
-        // isimler [0] = "Ali";
-        //isimler.SetValue("Ali",0);
+        DateTime simdi = DateTime.Now;
 
-        // System.Console.WriteLine(isimler.GetValue(0));
-        // System.Console.WriteLine(Array.IndexOf(isimler,"Çınar"));
-        // System.Console.WriteLine(isimler.Length);
-
-        //Array.Sort(isimler);
-        //Array.Sort(numaralar);
+        // System.Console.WriteLine(simdi);
+        // System.Console.WriteLine(simdi.Year);
+        // System.Console.WriteLine(simdi.Month);
+        // System.Console.WriteLine(aylar[simdi.Month-1]);
+        // System.Console.WriteLine(simdi.Day);
+        // System.Console.WriteLine(simdi.DayOfWeek);
+        // System.Console.WriteLine(simdi.Hour);
+        // System.Console.WriteLine(simdi.Minute);
+        // System.Console.WriteLine(simdi.Second);
         
-        //Array.Reverse(isimler);
-        //Array.Reverse(numaralar);
+        DateTime dt = new DateTime(2018,2,22,14,30,21);
 
-        //Array.Clear(isimler,0,2);
-        //Array.Clear(numaralar,0,2);
+        // DateTime dt1 = dt.AddDays(2);
+        // DateTime dt1 = dt.AddYears(1);
+        DateTime dt1 = dt.AddHours(-5);
 
-        // System.Console.WriteLine(isimler.GetValue(0));
-        // System.Console.WriteLine(numaralar.GetValue(0));
+        var fark = simdi - dt;
 
-        // System.Console.WriteLine(isimler[0]);
-        // System.Console.WriteLine(isimler[^2]);
+        // System.Console.WriteLine(fark.TotalDays);
+        // System.Console.WriteLine(fark.TotalHours);
 
-        string[] isimler = {"Ahmet","Çınar","Ada","Yiğit","Sena"};
+        // System.Console.WriteLine(simdi.ToString("d"));
+        // System.Console.WriteLine(simdi.ToString("D"));
+        // System.Console.WriteLine(simdi.ToString("F"));
+        // System.Console.WriteLine(simdi.ToString("M"));
+        // System.Console.WriteLine(simdi.ToString("t"));
+        // System.Console.WriteLine(simdi.ToString("T"));
+        // System.Console.WriteLine(simdi.ToString("Y"));
 
-        // var result = isimler [1..4];
-        // var result = isimler [1..];
-        var result = isimler [..3];
+        System.Console.WriteLine(simdi.ToString("hh-mm-ss"));
+        System.Console.WriteLine(simdi.ToString("ddd MMM %d, yyyy"));
 
-
-        foreach (var isim in result)
-        {
-            System.Console.WriteLine(isim);
-        }
-
-        string msg = "Hello there";
-        System.Console.WriteLine(msg[0..5]);
+        CultureInfo culture = new CultureInfo("tr");
+        System.Console.WriteLine(simdi.ToString("F",culture));
 
     }
 }
