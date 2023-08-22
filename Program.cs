@@ -6,44 +6,40 @@ class Program
 {
     static void Main(string[] args)
     {   
-        // int a = 10;
-        // int b = 20;
-        // float val;
+        int x=2, y=5, z=10;
 
-        // val = a + b;
-        // val = a - b;
-        // val = a * b;
-        // val = (float)a / (float)b;
-        // val = b % a;
-        // val = a++;
-        // val = ++a;
-        // val = a--;
-        // val = --a;
-
-        // System.Console.WriteLine("a: "+a);
-        // System.Console.WriteLine("value: "+ val);
+        // a-) Kullanıcıdan aldığınız 2 sayının çarpımı ile x,y,z toplamının farkı nedir?
+        // b-) Kullanıcıdan alınan bir sayının tek çift kontrolünü yapınız.
+        // c-) (x,y,z) toplamının mod 3'ü kaçtır?
+        // d-) y'nin x. kuvvetini hesaplayınız.
     
-        int x=5,y=10,z=20;
-        double val;
+        // a-)
 
-        x += 5;
-        x -= 5;
+        //Console.Write("1. sayı: ");
+        //int sayi1 = int.Parse(Console.ReadLine());
+        
+        //Console.Write("2. sayı: ");
+        //int sayi2 = int.Parse(Console.ReadLine());
 
-        x *= 5;
-        x /= 5;
-        x %= 5;
-        // val = Math.Pow(2,5);
-        // val = Math.Sqrt(25);
-        // val = Math.Abs(-10);
-        // val = Math.Round(4.4);
-        // val = Math.Ceiling(5.5);
-        // val = Math.Floor(5.2);
+        //int k = (sayi1 * sayi2) - (x+y+z);
+        //System.Console.WriteLine($"2 sayının çarpımı ile x,y,z toplamı: {k}");
 
+        // b-)
 
-        System.Console.WriteLine($"x: {x} y: {y} z: {z}");
-        System.Console.WriteLine(val);
-    
-    
-    
+        // Console.Write("sayı girin: ");
+        // int sayi = int.Parse(Console.ReadLine());
+
+        // string sonuc = (sayi % 2)==0?"evet":"hayır";
+        //System.Console.WriteLine($"girilen sayı çift mi? {sonuc}");
+
+        // c-)
+
+        // int sonuc = (x+y+z) % 3;
+        // System.Console.WriteLine($"Toplamların mod 3'ü: {sonuc}");
+
+        // d-)
+
+        // double kuvvet = Math.Pow(y,x);
+        // System.Console.WriteLine($"Kuvvet: {kuvvet}");
     }
 }
