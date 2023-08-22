@@ -6,40 +6,28 @@ class Program
 {
     static void Main(string[] args)
     {   
-        int x=2, y=5, z=10;
 
-        // a-) Kullanıcıdan aldığınız 2 sayının çarpımı ile x,y,z toplamının farkı nedir?
-        // b-) Kullanıcıdan alınan bir sayının tek çift kontrolünü yapınız.
-        // c-) (x,y,z) toplamının mod 3'ü kaçtır?
-        // d-) y'nin x. kuvvetini hesaplayınız.
-    
-        // a-)
+        int a=5,b=5,c=10,d=4;
+        string username = "ismailkurt";
+        string password = "123456";
 
-        //Console.Write("1. sayı: ");
-        //int sayi1 = int.Parse(Console.ReadLine());
-        
-        //Console.Write("2. sayı: ");
-        //int sayi2 = int.Parse(Console.ReadLine());
+        var result = (a==b); // true
+        result = (a==c); // false
+        result = (username == "ismlkrt");
+        result = (username == "123456");
+        result = (a != b);
+        result = (a != c);
+        result = (a > c);
+        result = (c > a);
+        result = (a >= b);
+        result = (a <= b);
+        string sonuc = (a == b)?"a=b":"a!=b";
+        sonuc = (username == "ismailkurt")?
+            sonuc = (password == "123456")?"username ve password doğru":"username doğru, password yanlış":
+            sonuc = (password == "123456")?"username yanlış, password doğru":"username ve password yanlış";
 
-        //int k = (sayi1 * sayi2) - (x+y+z);
-        //System.Console.WriteLine($"2 sayının çarpımı ile x,y,z toplamı: {k}");
+        System.Console.WriteLine("sonuc: " +sonuc);
+        System.Console.WriteLine("result: "+result);
 
-        // b-)
-
-        // Console.Write("sayı girin: ");
-        // int sayi = int.Parse(Console.ReadLine());
-
-        // string sonuc = (sayi % 2)==0?"evet":"hayır";
-        //System.Console.WriteLine($"girilen sayı çift mi? {sonuc}");
-
-        // c-)
-
-        // int sonuc = (x+y+z) % 3;
-        // System.Console.WriteLine($"Toplamların mod 3'ü: {sonuc}");
-
-        // d-)
-
-        // double kuvvet = Math.Pow(y,x);
-        // System.Console.WriteLine($"Kuvvet: {kuvvet}");
     }
 }
